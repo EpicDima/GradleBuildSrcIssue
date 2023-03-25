@@ -35,8 +35,8 @@ android {
 
 dependencies {
 
-    implementation(project(Modules.dep))
-    implementation(project(Modules.depkts))
+    implementation(project(Modules.Dependencies.dep))
+    implementation(project(Modules.Dependencies.depkts))
 
     implementation("androidx.core:core-ktx:1.7.0")
     implementation("androidx.appcompat:appcompat:1.6.1")
