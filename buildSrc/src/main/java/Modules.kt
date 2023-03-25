@@ -1,3 +1,5 @@
+package com.epicdima
+
 object Modules {
     const val lib = ":library"
     const val libkts = ":librarykts"
